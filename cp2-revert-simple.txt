@@ -1,0 +1,23 @@
+ac19523 Añade el archivo
+2e2d923 Añade este archivo al repositorio
+3d64c3b Ajusta limite de conexiones
+c765a81 Cambia a modo debug en producción (bug)
+f2586c4 Activa cache por defecto
+5348468 Config inicial para producción
+746a262 add deadline
+0790529 Initial commit
+
+  GNU nano 7.2                       config.txt                                 
+modo=produccion
+nivel_log=info
+cache=activada
+<<<<<<< HEAD
+<<<<<<< HEAD
+modo=debug
+limite_conexiones=100
+=======
+>>>>>>> parent of c765a81 (Cambia a modo debug en producción (bug))
+=======
+>>>>>>> parent of c765a81 (Cambia a modo debug en producción (bug))
+
+Este método es seguro porque, en lugar de borrar el pasado, crea un nuevo commit que deshace los cambios, manteniendo la integridad del historial para todos los demás colaboradores.

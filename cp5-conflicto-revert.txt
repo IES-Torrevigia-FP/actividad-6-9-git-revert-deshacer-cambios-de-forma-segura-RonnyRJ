@@ -1,0 +1,20 @@
+On branch main
+Your branch is ahead of 'origin/main' by 12 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	cp2-revert-simple.txt
+	cp3-revert-head.txt
+	cp4-multiples-revert.txt
+	cp5-conflicto-revert.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Identificación: Localicé las marcas de conflicto (<<<<<<<, =======, >>>>>>>) en el archivo afectado.
+
+Limpieza: Borré manualmente los marcadores y elegí la versión final del texto para que el archivo sea coherente.
+
+Registro: Utilicé git add para confirmar que el conflicto estaba resuelto.
+
+Finalización: Ejecuté git revert --continue para crear el commit de reversión y cerrar el proceso.

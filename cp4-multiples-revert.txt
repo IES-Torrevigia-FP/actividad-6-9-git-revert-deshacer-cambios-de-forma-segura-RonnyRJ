@@ -1,0 +1,23 @@
+git revert --no-commit 2a86019             
+git revert --no-commit cb27ac3
+
+
+6116492 Revierte experimentos 1 y 2
+2a86019 Activa experimento 2
+cb27ac3 Activa experimento 1
+bdf5dc3 Revert "Sube nivel de log a debug (también bug)"
+883f684 Sube nivel de log a debug (también bug)
+ac19523 Añade el archivo
+2e2d923 Añade este archivo al repositorio
+3d64c3b Ajusta limite de conexiones
+c765a81 Cambia a modo debug en producción (bug)
+f2586c4 Activa cache por defecto
+5348468 Config inicial para producción
+746a262 add deadline
+0790529 Initial commit
+
+Agrupar varios reverts en un solo commit interesa por:
+
+Orden: Mantiene el historial limpio, evitando múltiples mensajes de "deshacer" que saturan el log.
+Atomicidad: Permite revertir una funcionalidad completa (que ocupaba varios commits) como una única unidad lógica.
+Facilidad: Si otro desarrollador debe revisar o revertir tu cambio, solo tiene que gestionar un commit en lugar de varios dispersos.
