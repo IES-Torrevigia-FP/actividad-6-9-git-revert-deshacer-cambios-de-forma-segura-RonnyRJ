@@ -9,3 +9,4 @@ limite_conexiones=100
 >>>>>>> parent of c765a81 (Cambia a modo debug en producción (bug))
 =======
 >>>>>>> parent of c765a81 (Cambia a modo debug en producción (bug))
+nivel_log=debug
